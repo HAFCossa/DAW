@@ -18,7 +18,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('teste', function () {
-    return view('index');
-});
 
+
+Route::resource('cliente', PostController::class);
