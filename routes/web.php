@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ClienteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +21,4 @@ Route::get('/', function () {
 
 
 
-Route::resource('cliente', PostController::class);
+Route::resource('cliente', ClienteController::class);
